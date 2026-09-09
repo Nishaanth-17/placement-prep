@@ -35,3 +35,21 @@ public class ArraysBasics {
         for (int i = 0; i < afterInsertion.length; i++) {
             System.out.println(afterInsertion[i]);
         }
+
+        // Deletion
+        int deletePosition = 3;
+        int[] afterDeletion = new int[afterInsertion.length - 1];
+
+        for (int i = 0; i < deletePosition; i++) {
+            afterDeletion[i] = afterInsertion[i];
+        }
+
+        for (int i = deletePosition; i < afterInsertion.length - 1; i++) {
+            afterDeletion[i] = afterInsertion[i + 1];
+        }
+
+        System.out.println("After deletion:");
+
+        for (int i = 0; i < afterDeletion.length; i++) {
+            System.out.println(afterDeletion[i]);
+        }
