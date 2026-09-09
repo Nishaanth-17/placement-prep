@@ -1,4 +1,4 @@
-# Day 02 - Arrays
+# Day 01 - Arrays
 
 ## Topics Covered
 - Array Basics
