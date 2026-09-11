@@ -21,3 +21,9 @@ class Solution {
         return water;        
     }
 }
+
+/*
+Complexity:
+Time: O(n)
+Space: O(1)
+*/
