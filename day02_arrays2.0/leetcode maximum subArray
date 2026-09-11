@@ -18,3 +18,14 @@ class Solution {
         return maxSum;
     }
 }
+
+## Complexity Analysis
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+### Explanation
+- We traverse the array only once.
+- At each position, we decide whether to start a new subarray or extend the current subarray.
+- We only use variables to store the current sum and maximum sum.
+- No extra array or data structure is required, so the space complexity is **O(1)**.
