@@ -14,3 +14,15 @@ class Solution {
         return s1.substring(0, idx);
     }
 }
+
+#complexity note:
+## Complexity Analysis
+
+- **Time Complexity:** O(n × m)
+- **Space Complexity:** O(1)
+
+### Explanation
+- `n` = number of strings.
+- `m` = length of the shortest string.
+- We compare characters across the strings until a mismatch is found.
+- No extra data structure is used, so the extra space is **O(1)**.
