@@ -17,3 +17,15 @@ public class Solution {
         return count;
     }
 }
+
+## Complexity Analysis
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+### Explanation
+- We traverse the array once while calculating the prefix sum.
+- The HashMap stores the frequency of previously seen prefix sums.
+- For each element, we check whether `prefixSum - k` exists in the HashMap.
+- In the worst case, the HashMap can contain up to `n` different prefix sums.
+- Therefore, time complexity is **O(n)** and space complexity is **O(n)**.
