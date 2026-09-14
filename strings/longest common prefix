@@ -29,3 +29,14 @@ class Solution {
 - `m` = length of the shortest string
 
 **Space Complexity:** O(1) auxiliary space
+
+## Complexity
+- Time Complexity: O(n × m)
+- Space Complexity: O(1)
+
+Where:
+- `n` = number of strings
+- `m` = length of the shortest string
+
+## Key Concept
+String comparison and prefix matching.
