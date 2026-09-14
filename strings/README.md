@@ -27,4 +27,4 @@ The complexity depends on the individual problem and approach used.
 
 ## Language
 
-Solutions are implemented in JavaScript.
+Solutions are implemented in Java.
