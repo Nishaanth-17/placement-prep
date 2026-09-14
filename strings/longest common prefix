@@ -36,7 +36,18 @@ class Solution {
 
 Where:
 - `n` = number of strings
+
+
 - `m` = length of the shortest string
 
+## Key Concept
+String comparison and prefix matching.
+
+## Edge Cases
+- Empty array
+- Single string
+- No common prefix
+- One of the strings is empty
+- All strings are identical
 ## Key Concept
 String comparison and prefix matching.
