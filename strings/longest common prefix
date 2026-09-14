@@ -51,3 +51,11 @@ String comparison and prefix matching.
 - All strings are identical
 ## Key Concept
 String comparison and prefix matching.
+
+## Example
+
+Input:
+["flower", "flow", "flight"]
+
+Output:
+"fl"
